@@ -1,0 +1,44 @@
+[
+    {
+        "titolo": "Bohemian Rhapsody",
+        "artista": "Queen",
+        "url_della_cover": "https://m.media-amazon.com/images/I/61dk4SHy1CL.jpg",
+        "anno_di_pubblicazione": 1975,
+        "genere": "Rock"
+    },
+    {
+        "titolo": "Imagine",
+        "artista": "John Lennon",
+        "url_della_cover": "https://m.media-amazon.com/images/I/61EHasGroeL._UF1000,1000_QL80_.jpg",
+        "anno_di_pubblicazione": 1971,
+        "genere": "Pop Rock"
+    },
+    {
+        "titolo": "Billie Jean",
+        "artista": "Michael Jackson",
+        "url_della_cover": "https://i.discogs.com/0pp2M7ysfAMrr4146Wi1_vhwGO4DVNsPipFHMcGMhPw/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTY0/OS0xNjcwMzIzNjI0/LTgyODguanBlZw.jpeg",
+        "anno_di_pubblicazione": 1982,
+        "genere": "Pop"
+    },
+    {
+        "titolo": "Smells Like Teen Spirit",
+        "artista": "Nirvana",
+        "url_della_cover": "https://i.discogs.com/Ai-DX_XNXA1iwGHQZ4jAnz_Y0N7cbMT8DFoB42CXphc/rs:fit/g:sm/q:90/h:600/w:590/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4ODI4/MC0xNjc4Nzc1MjI2/LTEwNTYuanBlZw.jpeg",
+        "anno_di_pubblicazione": 1991,
+        "genere": "Grunge"
+    },
+    {
+        "titolo": "Shape of You",
+        "artista": "Ed Sheeran",
+        "url_della_cover": "https://i1.sndcdn.com/artworks-000204763550-zbhoi1-t500x500.jpg",
+        "anno_di_pubblicazione": 2017,
+        "genere": "Pop"
+    },
+    {
+        "titolo": "Lose Yourself",
+        "artista": "Eminem",
+        "url_della_cover": "https://i.scdn.co/image/ab67616d0000b273968da85f248a7e7747767801",
+        "anno_di_pubblicazione": 2002,
+        "genere": "Hip Hop"
+    }
+]
