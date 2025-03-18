@@ -21,14 +21,13 @@ nav div a.navbar-brand {
 body {
     background-color: #1D2D3C;
     color: white;
-    height: 110vh;
+    /* height: 110vh; */
 }
 
 form.class-form {
     display: flex;
     gap: 1em;
     flex-direction: column;
-    width: 300px;
     margin: 20px auto;
     border: 1px solid #333;
     padding: .8em;

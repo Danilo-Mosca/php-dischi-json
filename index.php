@@ -38,7 +38,6 @@ require_once 'functions.php';
 
 
     <div class="container">
-
         <div class="row">
 
             <?php
@@ -62,7 +61,7 @@ require_once 'functions.php';
                                 if ($key == "url_della_cover") {
                                 ?>
 
-                                    <li class="list-group-item"> <?php echo "<img src=" . $value . " width=" . "200" . " height=" . "200" . ">";  ?> </li>
+                                    <li class="list-group-item"> <?php echo '<img src="' . $value . '" width="200" height="200" alt="immagine">';  ?> </li>
 
                                 <?php
                                     continue;
@@ -85,8 +84,31 @@ require_once 'functions.php';
             ?>
 
         </div>
-
     </div>
+
+
+
+    <div class="container mt-5">
+        <form action="server.php" method="POST" class="class-form">
+            <label for="titolo">Inserisci il titolo dell'album:</label>
+            <input type="text" name="titolo" id="titolo" required>
+
+            <label for="artista">Inserisci il nome dell'artista:</label>
+            <input type="text" name="artista" id="artista" required>
+
+            <label for="url">Inserisci un url della cover:</label>
+            <input type="text" name="url" id="url">
+
+            <label for="anno">Inserisci l'anno di pubblicazione:</label>
+            <input type="text" name="anno" id="anno" required>
+
+            <label for="genere">Inserisci il genere:</label>
+            <input type="text" name="genere" id="genere" required>
+
+            <button type="submit" class="btn btn-success">Aggiungi il disco</button>
+        </form>
+    </div>
+
 </body>
 
 </html>

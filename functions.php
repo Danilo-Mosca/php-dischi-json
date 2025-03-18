@@ -9,3 +9,4 @@ $file = file_get_contents('./dischi.json');
 // non come un oggetto
 $json_dischi_text = json_decode($file, true);
 // var_dump($json_dischi_text);
+// var_dump($json_dischi_text[0]["titolo"]);
